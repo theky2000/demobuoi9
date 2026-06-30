@@ -1,0 +1,21 @@
+/* Tùy chỉnh thêm một vài thuộc tính nhỏ nằm ngoài mặc định của Bootstrap */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Ẩn các khung hiển thị kết quả lúc ban đầu khi chưa click tính toán */
+.custom-result {
+    display: none;
+    font-weight: bold;
+    border-left: 5px solid #198754; /* Thêm đường viền bên trái cho đẹp */
+}
+
+/* Hiệu ứng mượt mà khi hover vào các thẻ card */
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12) !important;
+}
