@@ -1,8 +1,4 @@
-/**
- * Hàm hỗ trợ hiển thị kết quả ra màn hình (DOM bằng ID)
- * @param {string} idElement - ID của thẻ chứa kết quả
- * @param {string} noiDung - Văn bản hoặc HTML cần hiển thị
- */
+
 function hienThiKetQua(idElement, noiDung) {
     let el = document.getElementById(idElement);
     if (el) {
